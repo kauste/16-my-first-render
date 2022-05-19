@@ -1,0 +1,68 @@
+@import './3rd-party/fontawesome/all.min.css';
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.practiceH2 {
+    width: 100%;
+    text-align: center;
+    color:rgb(2, 127, 123);
+    font-size: 40px;
+    margin: 50px 0;
+ 
+}
+
+.section-box {
+    width: 80%;
+    height:800px;
+    margin-left: 10%;
+    background-color: rgb(229, 247, 246);
+    border-radius: 15px;   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 30px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.practice-box {
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 2px 0px 15px rgb(190, 189, 189);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.practice-icon {
+    font-size: 60px;
+    width: 20%;
+    color: rgba(95, 61, 1, 0.75);
+}
+.left-side {
+    width: 60%;
+    display: flex;
+    flex-direction:column;
+    row-gap: 8px;
+    color: rgba(5, 5, 5, 0.904);
+}
+.place{
+
+}
+.leader{
+
+}
+.direction{
+
+}
